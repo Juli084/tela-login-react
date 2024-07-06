@@ -11,7 +11,6 @@ import "./Login.css";
     const handleSubmit = (event) => {
       event.preventDefault();
 
-      alert("Enviando dados:" + username + " - " + password);
     };
     
     return (
