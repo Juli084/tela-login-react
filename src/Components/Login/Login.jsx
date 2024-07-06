@@ -17,7 +17,7 @@ import "./Login.css";
       <div className="container">
           <form onSubmit={handleSubmit}>
               <h1>Acesse o sistema</h1>
-              <div>
+              <div className="input-field">
                   <input 
                   type="E-mail" 
                   placeholder="E-mail" 
@@ -26,7 +26,7 @@ import "./Login.css";
                   <FaUser className="icon" />
               </div>
               
-              <div>
+              <div className="input-field">
                   <input 
                   type="password" 
                   placeholder="Digite sua senha" 
